@@ -19,7 +19,7 @@
             <a href="#Contact">Contact</a>
         </div>
 
-        <!--Breaks inserted to add space between navbar and the first heading-->
+    
         <br>
         <br>
 
@@ -27,7 +27,6 @@
         <div id="Home">
             <video autoplay muted loop id="Typing_Video">
                 <source src="./Img/video1.mp4" type="video/mp4">
-                <!--Display message if video fails to run-->
                 Your browser does not support HTML5 video.
             </video>
         </div>
@@ -93,8 +92,7 @@
             <!--Contact form, right column-->
             <div class="Column_1 Column_tall">
                 <h1>Contact</h1>
-                <!--This specifies where and how to send the form data; we are leaving it blank-->
-                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                <form action="" method="POST">
                     <label>Name:</label>
                         <input type="text" placeholder="Please enter your name here">
                     <label>Email:</label>
